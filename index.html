@@ -131,21 +131,25 @@
         </section>
 
         <section id="Access">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.7212196582577!2d130.39189477581095!3d33.58658684217458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918695a762f1%3A0x4cd666427ea8220!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yR5LiB55uu77yT4oiS77yU77yRIOODl-ODquOCquWkp-WQjeODk-ODqyAxZg!5e0!3m2!1sja!2sjp!4v1682821452523!5m2!1sja!2sjp"
+                width="960" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <h2 class="access_title text_center">■Access</h2>
-            <div class="access">
-                <dl class="access_content">
-                    <dt class="access_title">学校名</dt>
-                    <dd class="access_item">チーズアカデミーFUKUOKA</dd>
-                    <dt class="access_title">事務所所在地</dt>
-                    <dd class="access_item">〒810-0041 福岡県福岡市中央区大名1丁目3-41 プリオ大名ビル1F</dd>
-                    <dt class="access_title">TEL</dt>
-                    <dd class="access_item">000-000-0000</dd>
-                    <dt class="access_title">FAX</dt>
-                    <dd class="access_item">999-999-9999</dd>
-                    <dt class="access_title">MAIL</dt>
-                    <dd class="access_item">dummy@cheeseacademy.tokyo</dd>
-                </dl>
-            </div>
+            <dl class="access_content">
+                <dt class="access_one">学校名</dt>
+                <dd class="access_two">チーズアカデミーFUKUOKA</dd>
+                <dt class="access_one">事務所所在地</dt>
+                <dd class="access_two">〒810-0041 福岡県福岡市中央区大名1丁目3-41 プリオ大名ビル1F</dd>
+                <dt class="access_one">TEL</dt>
+                <dd class="access_two">000-000-0000</dd>
+                <dt class="access_one">FAX</dt>
+                <dd class="access_two">999-999-9999</dd>
+                <dt class="access_one">MAIL</dt>
+                <dd class="access_two">dummy@cheeseacademy.tokyo</dd>
+            </dl>
+
+
         </section>
 
         <section id="Contact">
@@ -157,8 +161,6 @@
                 <p>※チーズアカデミーは実際には存在しません</p>
                 <p class="contact_call">間違っても問い合わせしないようお願いいたします．</p>
             </div>
-
-
             <div class="contact_wrappar">
                 <form action="#" method="post">
                     <dl class="form_inner">
@@ -167,9 +169,9 @@
                         <dt class="form_title">カナ</dt>
                         <dd class="form_item"><input type="text" name="kana"></dd>
                         <dt class="form_title">メールアドレス</dt>
-                        <dd class="form_item"><input type="email" name="email" id=""></dd>
+                        <dd class="form_item"><input type="email" name="email" id="email"></dd>
                         <dt class="form_title">志望動機</dt>
-                        <dd class="form_item">
+                        <dd class="form_select_job">
                             <div class="contact_label_select">
                                 <label for="company"><input type="radio" name="kind" id="company"
                                         value="起業をしたい">起業をしたい</label><br>
@@ -180,19 +182,23 @@
                                 <label for="study"><input type="radio" name="kind" id="study"
                                         value="チーズの教養を身につけたい">チーズの教養を身につけたい</label><br>
                             </div>
-                        <dd class="form_item"><input type="text" name="else"></dd>
+                        <dt class="form_title">詳細</dt>
+                        <dd class="form_item_else"><input type="text" name="else"></dd>
+                    </dl>
+                </form>
             </div>
-            </dd>
-
-            </dl>
-            <input type="submit" value="送信">
-            </form>
+            <div class="btn_margin">
+                <a href="#" target="_blank" class="btn">送信</a>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <small class="copyrights">copyrights 2016-2018 Cheeese Academy Fukuoka All RIghts Reserved.</small>
+
+    <footer class="footer text_center">
+        <p class="copy_rights">copyrights 2016-2018 Cheeese Academy Fukuoka All RIghts Reserved.</p>
     </footer>
+
+
 </body>
+
 
 </html>
